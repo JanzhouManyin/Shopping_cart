@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Cart</title>
+		<!--css for cart-->
+		<link rel="stylesheet" type="text/css" href="../css/cart.css" />
+		<!--js for cookie-->
+		<script type="text/javascript" src="../js/cookie.js"></script>
+	</head>
+
+	<body>
+		<div class="container">
+			 
+			<h3><a href="index.html">Go back the product page</a></h3>
+			<table id="table" border="1" cellspacing="0" cellpadding="0" class="hide">
+				<thead>
+					<tr>
+						<th>
+							<input type="checkbox" id="allCheck" class="ck" />All
+						</th>
+						<th>
+							Image
+						</th>
+						 <th>
+							Size
+						</th>
+						<th>
+							Quantity
+						</th>
+						<th>
+							price
+						</th>
+						<th>
+							total
+						</th>						 
+					</tr>
+				</thead>
+				<tbody id="tbody">
+					 
+				</tbody>
+			</table>
+			<div class="box" id="box">there are nothing in the cart</div>
+			<h2 id="h2" class="">Total Price：$<span id="totalPrice">0</span></h2>
+		</div>
+		<script src="../js/server.js" type="text/javascript" charset="utf-8"></script>
+		<!--js for cart-->
+		<script src="../js/cart.js"></script>
+	</body>
+
+</html>

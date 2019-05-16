@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>Product page</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<!--css for the product-->
+		<link rel="stylesheet" type="text/css" href="../css/index.css" />
+		<!--js for cookie-->
+		<script src="../js/cookie.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="head_container">
+			 	<div class="mycar">
+				<a href="cart.html">My Cart</a><i >(<span id="ccount">0</span>)</i>
+			</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-5">
+    			<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                   <div class="carousel-inner">
+                      <div class="carousel-item active">
+                         <img src="../img/classic-tee.jpg" class="d-block w-100" alt="First slide">
+                      </div>                     
+                   </div>
+                </div>
+    		   </div>
+				<div class="col-md-5 list">
+					
+		        <div>
+				   <dl pid="1001">
+					   <dt>
+						  <img src="../img/classic-tee.jpg" hidden />
+					   </dt>
+					   <dd class="product_name">Classic Tee</dd>
+					   <dd class="product_price">$<span>75.00</span></dd>
+					   <dd class="product_description">Dolor sit amet,consectetur adipiscing elit.Haec et tu ita posuisti, et verba vestra sunt.Quod autem ratione actum est. id officium appellamus dolor sit amet. consectetur adipiscing elit. Haec et tu ita posuisti, et verba vestra sunt.Quod autem ratione actum est, id officium appellamus</dd>
+					   
+					    <div class="choosebox" id="choosebox">
+					    	<div class="product_size">SIZE<span class="star">*</span>:</div>
+			            <ul class="clearfix">
+				            <li>
+					            <input type="radio" name="Size" class ="current" value="M" id="" />
+					            <a href="javascript:void(0);" class="current"><span class="value">M</span></a>
+				            </li>
+				             
+				            <li>
+					            <input type="radio" name="Size" value="L" id="" />
+					            <a href="javascript:void(0);" value="L"><span class="value">L</span></a>
+				            </li>
+				            <li>
+					            <input type="radio" name="Size" value="XL" id="" />
+					            <a href="javascript:void(0);" value="XL"><span class="value">XL</span></a>
+				            </li>
+				 
+			            </ul>
+		            </div>
+					    
+					   <dd>
+						  <button>ADD TO CART</button>
+					   </dd>
+				    </dl>				 
+
+			   </div>
+			</div>
+			
+		</div>
+		 
+		<!--
+        	Data access layer, module that manipulates local data
+        -->
+		<script type="text/javascript" src="../js/server.js"></script>
+		<!--
+        	js for the index.html
+        -->
+		<script type="text/javascript" src="../js/index.js"></script>
+
+		
+
+	</body>
+
+</html>

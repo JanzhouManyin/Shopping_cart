@@ -1,1 +1,2 @@
 # Shopping_cart
+this small project used html Css and js to achieve a simple shopping cart, you can simplely open the index.html in the html folder to run it. I also add some functions in the cart page, including changing the quantity of products and calculating the total price. 
